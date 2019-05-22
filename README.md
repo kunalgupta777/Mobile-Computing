@@ -23,7 +23,6 @@ You can clone this repo by
 ```
 git clone https://github.com/kunalgupta777/Mobile-Computing
 ```
-
 # How to use the code?
 
 Navigate to the folder of any program (1-6). Each programs consists of atleast 2 scripts: 
@@ -45,7 +44,19 @@ To run the .awk file, type
 $ awk -f <name of awk file>.awk <name of trace file>.tr
 ```
 to see the output/statistics of the code.
-#Contact
+
+# List of Experiments:
+1.   Implement three nodes point - to - point network on NS2/NS3 with full duplex links between them. Set the queue size, vary the bandwidth and find the number of packets dropped.
+2.   Implement:
+      i.   transmission of ping messages
+      ii.  transmission of traceroute
+     over a network topology consisting of 6 nodes on NS2/NS3 and find the number of packets dropped, number of hops, and intermediate node ids.
+3.   Implement an Ethernet LAN using n nodes and set multiple traffic nodes and plot congestion window for different source/destination on NS2/NS3.
+4.   Implement and study the performance of GSM on NS2/NS3 using MAC layer.
+5.   Implement and study the performance of CDMA on NS2/NS3 using stack environment.
+6.   Simulate a mobile ad-hoc network on NS2/NS3. 
+
+# Contact
 Mail me at upanshug53@gmail.com, if you have any queries.
  
 
